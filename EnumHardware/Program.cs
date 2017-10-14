@@ -10,6 +10,15 @@ namespace EnumHardware
   {
     static void Main(string[] args)
     {
+      Host host = new Host();
+
+      host.ListComponents();
+
+      Console.Read();
+
+
+
+
     }
   }
 }
